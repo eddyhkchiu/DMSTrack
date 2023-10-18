@@ -34,7 +34,9 @@ We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide availab
 The following video shows the visualization of our tracking result. Different colors represent different tracking IDs.
 
 
-https://github.com/eddyhkchiu/DMSTrack/assets/30642642/c4752047-831f-4d6b-9520-b0c71e60846e
+
+https://github.com/eddyhkchiu/DMSTrack/assets/30642642/d25a7cdf-25da-42ab-b009-47eac4c918c3
+
 
 
 ## References

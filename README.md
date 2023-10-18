@@ -9,4 +9,4 @@ Hsu-kuang Chiu<sup>1</sup>, Chien-Yi Wang<sup>2</sup>, Min-Hung Chen<sup>2</sup>
 </div>
 
 
-![teaser](images/project_page_fig1.pdf)
+![teaser](images/project_page_fig1.png)

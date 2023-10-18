@@ -22,7 +22,7 @@ The experiment results show that our algorithm improves the tracking accuracy by
 
   
 ## Experiment Result
-The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with baseline methods. The baseline methods’ results contains the one from the V2V4Real \[1\] paper and our implementation.
+We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide available public real-world dataset for vehicle-to-vehicle perception with 3D tracking benchmarks. The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with baseline methods. The baseline methods’ results contains the one from the V2V4Real \[1\] paper and our implementation.
 
 | Method                             | AMOTA(↑) | AMOTP(↑) | sAMOTA(↑) | MOTA(↑)  | MT(↑)    | ML(↓)    | Cost (MB) (↓)
 |------------------------------------|----------|----------|-----------|----------|----------|----------|---------------------------|
@@ -36,4 +36,11 @@ The following video shows the visualization of our tracking result. Different co
 
 https://github.com/eddyhkchiu/DMSTrack/assets/30642642/c4752047-831f-4d6b-9520-b0c71e60846e
 
+
+## References
+
+We mainly use the open source code of the following two papers as the reference to implement our algorithm.
+
+- \[1\] *"V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception"*, Runsheng Xu, Xin Xia, Jinlong Li, Hanzhao Li, Shuo Zhang, Zhengzhong Tu, Zonglin Meng, Hao Xiang, Xiaoyu Dong, Rui Song, Hongkai Yu, Bolei Zhou, Jiaqi Ma, CVPR 2023.
+- \[2\] *"A Baseline for 3D Multi-Object Tracking"*, Xinshuo Weng and Kris Kitani, IROS 2020.
 

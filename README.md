@@ -32,5 +32,8 @@ The following table shows the cooperative tracking performance and communication
 
 
 The following video shows the visualization of our tracking result. Different colors represent different tracking IDs.
+
+
 https://github.com/eddyhkchiu/DMSTrack/assets/30642642/c4752047-831f-4d6b-9520-b0c71e60846e
+
 

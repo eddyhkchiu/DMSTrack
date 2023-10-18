@@ -29,3 +29,8 @@ The following table shows the cooperative tracking performance and communication
 | CoBEVT \[1\]                       | 32.12    | 55.61    | 77.65     | 63.75    | 47.29    | 30.32    | 0.20
 | CoBEVT (our implementation)        | 37.16    | 57.20    | 84.54     | 84.14    | 57.07    | 15.83    | 0.20
 | DMSTrack (ours)                    | **43.52**    | **57.94**    | **91.50**     | **88.32**    | **68.35**    | **13.19**    | **0.0073**
+
+
+The following video shows the visualization of our tracking result. Different colors represent different tracking IDs.
+https://github.com/eddyhkchiu/DMSTrack/assets/30642642/c4752047-831f-4d6b-9520-b0c71e60846e
+

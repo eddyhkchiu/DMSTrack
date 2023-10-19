@@ -22,11 +22,11 @@ The experiment results show that our algorithm improves the tracking accuracy by
 
   
 ## Experiment Result
-We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide available public real-world dataset for vehicle-to-vehicle perception with 3D tracking benchmarks. The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with baseline methods. The baseline methods’ results contains the one from the V2V4Real \[1\] paper and our implementation.
+We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide available public real-world dataset for vehicle-to-vehicle perception with 3D tracking benchmarks. The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with the state-of-the-art CoBEVT method. The baseline results contain the one from the V2V4Real \[1\] paper and another one of our implementation.
 
 | Method                             | AMOTA(↑) | AMOTP(↑) | sAMOTA(↑) | MOTA(↑)  | MT(↑)    | ML(↓)    | Cost (MB) (↓)
 |------------------------------------|----------|----------|-----------|----------|----------|----------|---------------------------|
-| CoBEVT \[1\]                       | 32.12    | 55.61    | 77.65     | 63.75    | 47.29    | 30.32    | 0.20
+| CoBEVT                             | 32.12    | 55.61    | 77.65     | 63.75    | 47.29    | 30.32    | 0.20
 | CoBEVT (our implementation)        | 37.16    | 57.20    | 84.54     | 84.14    | 57.07    | 15.83    | 0.20
 | DMSTrack (ours)                    | **43.52**    | **57.94**    | **91.50**     | **88.32**    | **68.35**    | **13.19**    | **0.0073**
 

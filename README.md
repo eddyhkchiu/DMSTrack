@@ -6,6 +6,8 @@ Hsu-kuang Chiu<sup>1</sup>, Chien-Yi Wang<sup>2</sup>, Min-Hung Chen<sup>2</sup>
 
 <sup>1</sup>Robotics Institute, Carnegie Mellon University, <sup>2</sup>NVIDIA Research
 
+IEEE International Conference on Robotics and Automation (ICRA), 2024
+
 [arxiv](https://arxiv.org/abs/2309.14655)
 
 <img src="images/project_page_fig1.jpg" height=400px>
@@ -22,12 +24,12 @@ The experiment results show that our algorithm improves the tracking accuracy by
 
   
 ## Experiment Result
-We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide available public real-world dataset for vehicle-to-vehicle perception with 3D tracking benchmarks. The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with the state-of-the-art CoBEVT method. The baseline results contain the one from the V2V4Real \[1\] paper and another one of our implementation.
+We exeriment on the V2V4Real \[1\] dataset, which is the first worldwide available public real-world dataset for vehicle-to-vehicle perception with 3D tracking benchmarks. The following table shows the cooperative tracking performance and communication cost in the testing split of V2V4Real \[1\] dataset in comparison with the state-of-the-art CoBEVT+AB3DMOT method. The baseline results contain the one from the V2V4Real \[1\] paper and another one of our implementation.
 
 | Method                             | AMOTA(↑) | AMOTP(↑) | sAMOTA(↑) | MOTA(↑)  | MT(↑)    | ML(↓)    | Cost (MB) (↓)
 |------------------------------------|----------|----------|-----------|----------|----------|----------|---------------------------|
-| CoBEVT                             | 32.12    | 55.61    | 77.65     | 63.75    | 47.29    | 30.32    | 0.20
-| CoBEVT (our implementation)        | 37.16    | 57.20    | 84.54     | 84.14    | 57.07    | 15.83    | 0.20
+| CoBEVT+AB3DMOT \[1\]               | 32.12    | 55.61    | 77.65     | 63.75    | 47.29    | 30.32    | 0.20
+| CoBEVT+AB3DMOT (our implementation)| 37.16    | 57.20    | 84.54     | 84.14    | 57.07    | 15.83    | 0.20
 | DMSTrack (ours)                    | **43.52**    | **57.94**    | **91.50**     | **88.32**    | **68.35**    | **13.19**    | **0.0073**
 
 
@@ -38,6 +40,16 @@ The following video shows the visualization of our tracking result. Different co
 https://github.com/eddyhkchiu/DMSTrack/assets/30642642/d25a7cdf-25da-42ab-b009-47eac4c918c3
 
 
+## Using our code
+
+You can follow the step-by-step instructions to setup the environment, download the dataset and model checkpoints, run model inference, visualize the tracking results, and train the model from scratch.
+
+- [Setup](docs/SETUP.md)
+- [Data](docs/DATAP.md)
+- [Checkpoint](docs/CHECKPOINT.md)
+- [Inference](docs/INFERENCE.md)
+- [Train](docs/TRAIN.md)
+  
 
 ## References
 
@@ -49,10 +61,10 @@ We mainly use the open source code of the following two papers as the reference 
 
 ## To Cite Our Paper
 ```
-@ARTICLE{chiu2023probabilistic,
+@ARTICLE{chiu2024probabilistic,
   title={Probabilistic 3D Multi-Object Cooperative Tracking for Autonomous Driving via Differentiable Multi-Sensor Kalman Filter},
   author={Chiu, Hsu-kuang and Wang, Chien-Yi and Chen, Min-Hung and Smith, Stephen F.},
-  journal={arXiv preprint arXiv:2309.14655},
-  year={2023}
+  journal={IEEE International Conference on Robotics and Automation (ICRA), 2024},
+  year={2024}
 }
 ```

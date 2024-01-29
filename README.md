@@ -64,7 +64,7 @@ We mainly use the open source code of the following two papers as the reference 
 @ARTICLE{chiu2024probabilistic,
   title={Probabilistic 3D Multi-Object Cooperative Tracking for Autonomous Driving via Differentiable Multi-Sensor Kalman Filter},
   author={Chiu, Hsu-kuang and Wang, Chien-Yi and Chen, Min-Hung and Smith, Stephen F.},
-  journal={IEEE International Conference on Robotics and Automation (ICRA), 2024},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2024}
 }
 ```

@@ -22,3 +22,18 @@ DMSTrack
 │   │   │   ├── other files
 ├── AB3DMOT/
 ```
+
+## **2. (Optional) Download the V2V4Real's CoBEVT detection data**
+
+If you want to run the tracking inference step using my implementation of V2V4Real's best method: CoBEVT + AB3DMOT, you can download cobevt.zip from the same google drive URL and uncompress it to the same folder as follows:
+
+```
+DMSTrack
+├── DMSTrack/
+├── V2V4Real/
+│   ├── official_models/
+│   │   ├── cobevt/
+│   │   │   ├── npy/
+│   │   │   ├── other files
+├── AB3DMOT/
+```

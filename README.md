@@ -45,7 +45,7 @@ https://github.com/eddyhkchiu/DMSTrack/assets/30642642/d25a7cdf-25da-42ab-b009-4
 You can follow the step-by-step instructions to setup the environment, download the dataset and model checkpoints, run model inference, visualize the tracking results, and train the model from scratch.
 
 - [Setup](docs/SETUP.md)
-- [Data](docs/DATAP.md)
+- [Data](docs/DATA.md)
 - [Checkpoint](docs/CHECKPOINT.md)
 - [Inference](docs/INFERENCE.md)
 - [Train](docs/TRAIN.md)

@@ -6,9 +6,9 @@ Hsu-kuang Chiu<sup>1</sup>, Chien-Yi Wang<sup>2</sup>, Min-Hung Chen<sup>2</sup>
 
 <sup>1</sup>Robotics Institute, Carnegie Mellon University, <sup>2</sup>NVIDIA Research
 
-IEEE International Conference on Robotics and Automation (ICRA), 2024
+IEEE International Conference on Robotics and Automation ([ICRA](https://2024.ieee-icra.org/)), 2024
 
-[arxiv](https://arxiv.org/abs/2309.14655)
+[project](https://eddyhkchiu.github.io/dmstrack.github.io/)  [arxiv](https://arxiv.org/abs/2309.14655)
 
 <img src="images/project_page_fig1.jpg" height=400px>
 
